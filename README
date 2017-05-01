@@ -1,0 +1,38 @@
+**************************************************************
+@Author: Suhua Wei
+@Time: May, 2017
+
+This a project based on artoolkit
+**************************************************************
+
+**************************************************************
+1. artoolkit installation
+artoolkit installation can be downloaded from the following link:
+https://artoolkit.org/download-artoolkit-sdk
+
+Choose Linux(64-bit) version for ubuntu 14.02 operating system
+--comment: I found it is earier to download this light version package
+than compiling it from source, which contains planty of unnecessary modules 
+not usable to ubuntu.
+
+
+2. install depdendency 
+
+
+
+
+
+
+
+
+3. run example: simpleLite.c
+Supplement information can be found at:
+http://www.artoolworks.com/support/library/ARToolKit_tutorial_1:_First_simple_ARToolKit_scene
+
+
+
+
+
+
+
+4. Basic cordinate 
