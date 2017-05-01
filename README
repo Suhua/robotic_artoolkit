@@ -1,0 +1,65 @@
+**************************************************************
+@Author: Suhua Wei
+@Time: May, 2017
+
+This a project based on artoolkit
+**************************************************************
+
+**************************************************************
+1. artoolkit installation
+artoolkit installation can be downloaded from the following link:
+https://artoolkit.org/download-artoolkit-sdk
+
+Choose Linux(64-bit) version for ubuntu 14.02 operating system
+--comment: I found it is earier to download this light version package
+than compiling it from source, which contains planty of unnecessary modules 
+not usable to ubuntu.
+
+
+2. install depdendency 
+
+2-1. setting an environment variable: 
+$ cd ~/ARToolKit5/
+$./share/artoolkit5-setenv
+
+2-2. other required packages can be found at:
+Please make sure you have installed the following:
+-OpenGL
+-libjpeg
+-GLUT
+-OpenCV
+-Video4Linux
+
+Supplementary info: https://artoolkit.org/documentation/doku.php?id=8_Advanced_Topics:build_artoolkit
+
+2-3. Compiling artoolkit. 
+$ ./Configure; make
+
+During the configuration dialogue, be sure to  choose 'Video4Linux' as Video capture library
+
+
+
+
+3. run example: simpleLite.c
+$cd bin
+$./simpleLite
+
+Use the "Hire" maker by default. 
+
+
+Supplement information can be found at:
+http://www.artoolworks.com/support/library/ARToolKit_tutorial_1:_First_simple_ARToolKit_scene
+
+if you want to revise the source code simpleLite.c, go to
+$cd examples/simpleLite 
+
+save the changes you make,  repeat step 2-3(only run $make , no reconfiguration necessary) and step 3. You will see the change you make to the source file.
+
+
+
+4. Basic coordinate system tranformation
+https://solarianprogrammer.com/2013/05/22/opengl-101-matrices-projection-view-model/
+
+
+5. drawline a line off the marker
+source code is included in this repo in the file drawline.c
