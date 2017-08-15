@@ -12,8 +12,7 @@ https://artoolkit.org/download-artoolkit-sdk
 
 Choose Linux(64-bit) version for ubuntu 14.02 operating system
 --comment: I found it is earier to download this light version package
-than compiling it from source, which contains planty of unnecessary modules 
-not usable to ubuntu.
+than compiling it from source.
 
 
 2. install depdendency 
