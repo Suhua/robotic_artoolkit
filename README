@@ -21,7 +21,7 @@ than compiling it from source.
 $ cd ~/ARToolKit5/
 $./share/artoolkit5-setenv
 
-2-2. other required packages can be found at:
+2-2. other required packages:
 Please make sure you have installed the following:
 -OpenGL
 -libjpeg
